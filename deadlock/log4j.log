@@ -1,0 +1,6 @@
+2016-02-08 06:11:33 INFO  DeadLock:15 - Thread 1: locked resource 1
+2016-02-08 06:11:33 INFO  DeadLock:32 - Thread 2: locked resource 2
+2016-02-08 06:13:12 INFO  DeadLock:15 - Thread 1: locked resource 1
+2016-02-08 06:13:12 INFO  DeadLock:32 - Thread 2: locked resource 2
+2016-02-08 06:25:42 INFO  DeadLock:15 - Thread 1: locked resource 1
+2016-02-08 06:25:42 INFO  DeadLock:32 - Thread 2: locked resource 2
