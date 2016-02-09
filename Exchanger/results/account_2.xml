@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resultAccount>
+    <account>
+        <currencyValue>
+            <fromCurrency>
+                <code>1</code>
+                <shortName>BYR</shortName>
+            </fromCurrency>
+            <toCurrency>
+                <code>2</code>
+                <shortName>EUR</shortName>
+            </toCurrency>
+            <count>555555.0</count>
+            <checked>true</checked>
+        </currencyValue>
+        <currencyValue>
+            <fromCurrency>
+                <code>1</code>
+                <shortName>BYR</shortName>
+            </fromCurrency>
+            <toCurrency>
+                <code>2</code>
+                <shortName>EUR</shortName>
+            </toCurrency>
+            <count>10000.0</count>
+            <checked>true</checked>
+        </currencyValue>
+        <currencyValue>
+            <fromCurrency>
+                <code>2</code>
+                <shortName>EUR</shortName>
+            </fromCurrency>
+            <toCurrency>
+                <code>3</code>
+                <shortName>USD</shortName>
+            </toCurrency>
+            <count>75500.0</count>
+            <checked>true</checked>
+        </currencyValue>
+    </account>
+    <result>83729.4975519180297851562500</result>
+</resultAccount>

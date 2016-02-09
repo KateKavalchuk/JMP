@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resultAccount>
+    <account>
+        <currencyValue>
+            <fromCurrency>
+                <code>1</code>
+                <shortName>BYR</shortName>
+            </fromCurrency>
+            <toCurrency>
+                <code>2</code>
+                <shortName>EUR</shortName>
+            </toCurrency>
+            <count>123123.0</count>
+            <checked>true</checked>
+        </currencyValue>
+    </account>
+    <result>5.02341857768260524608194828033447265625</result>
+</resultAccount>

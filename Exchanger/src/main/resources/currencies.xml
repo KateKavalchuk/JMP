@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<currencies>
+	<currency>
+		<code>1</code>
+		<shortName>BYR</shortName>
+	</currency>
+	<currency>
+		<code>2</code>
+		<shortName>EUR</shortName>
+	</currency>
+	<currency>
+		<code>3</code>
+		<shortName>USD</shortName>
+	</currency>
+</currencies>

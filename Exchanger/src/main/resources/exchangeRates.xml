@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<exchangeRates>
+	<exchangeRate>
+		<from>
+			<code>1</code>
+			<shortName>BYR</shortName>
+		</from>
+		<to>
+			<code>3</code>
+			<shortName>USD</shortName>
+		</to>
+		<rate>4.42E-5</rate>
+	</exchangeRate>
+	<exchangeRate>
+		<from>
+			<code>1</code>
+			<shortName>BYR</shortName>
+		</from>
+		<to>
+			<code>2</code>
+			<shortName>EUR</shortName>
+		</to>
+		<rate>4.08E-5</rate>
+	</exchangeRate>
+	<exchangeRate>
+		<from>
+			<code>3</code>
+			<shortName>USD</shortName>
+		</from>
+		<to>
+			<code>2</code>
+			<shortName>EUR</shortName>
+		</to>
+		<rate>0.8921</rate>
+	</exchangeRate>
+	<exchangeRate>
+		<from>
+			<code>2</code>
+			<shortName>EUR</shortName>
+		</from>
+		<to>
+			<code>3</code>
+			<shortName>USD</shortName>
+		</to>
+		<rate>1.109</rate>
+	</exchangeRate>
+</exchangeRates>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resultAccount>
+    <account>
+        <currencyValue>
+            <fromCurrency>
+                <code>2</code>
+                <shortName>EUR</shortName>
+            </fromCurrency>
+            <toCurrency>
+                <code>3</code>
+                <shortName>USD</shortName>
+            </toCurrency>
+            <count>6789.0</count>
+            <checked>true</checked>
+        </currencyValue>
+    </account>
+    <result>7529.0007798671722412109375</result>
+</resultAccount>

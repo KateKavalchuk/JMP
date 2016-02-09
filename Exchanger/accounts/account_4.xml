@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<account>
+    <currencyValue>
+        <fromCurrency>
+            <code>1</code>
+            <shortName>BYR</shortName>
+        </fromCurrency>
+        <toCurrency>
+            <code>2</code>
+            <shortName>EUR</shortName>
+        </toCurrency>
+        <count>123123.0</count>
+    </currencyValue>
+</account>
