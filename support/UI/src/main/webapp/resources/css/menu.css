@@ -1,0 +1,30 @@
+@CHARSET "ISO-8859-1";
+
+body, html {
+	height: 100%;
+	width: 100%;
+	font-size:20px;
+}
+
+.menu-wrapper {
+	margin-top: 2%;
+}
+
+.profile {
+	width: 100%;
+	margin-bottom: 5%;
+}
+
+.profile-photo {
+	height: 80px;
+	width: 80px;
+	margin-left: 36%;
+	border-radius: 40px;
+	margin-bottom: 5%;
+}
+
+#welcome {
+	text-align: center;
+	font-size:24px;
+	color: #FFF;
+}

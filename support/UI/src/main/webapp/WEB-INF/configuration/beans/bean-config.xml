@@ -1,0 +1,39 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-4.2.xsd">
+
+	<bean id="baseDAO" abstract="true">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+
+	<bean id="requestDAO" class="by.bsuir.kovalchuk.requestservice.dao.impl.RequestDAO"
+		parent="baseDAO" />
+
+	<bean id="topicDAO" class="by.bsuir.kovalchuk.requestservice.dao.impl.TopicDAO"
+		parent="baseDAO" />
+
+	<bean id="statusDAO" class="by.bsuir.kovalchuk.requestservice.dao.impl.StatusDAO"
+		parent="baseDAO" />
+
+	<bean id="commentDAO" class="by.bsuir.kovalchuk.requestservice.dao.impl.CommentDAO"
+		parent="baseDAO" />
+
+	<bean id="attachedFileDAO"
+		class="by.bsuir.kovalchuk.requestservice.dao.impl.AttachedFileDAO"
+		parent="baseDAO" />
+
+	<bean id="priorityDAO" class="by.bsuir.kovalchuk.requestservice.dao.impl.PriorityDAO"
+		parent="baseDAO" />
+
+	<bean id="employeeDAO" class="by.bsuir.kovalchuk.requestservice.dao.impl.EmployeeDAO"
+		parent="baseDAO" />
+
+	<bean id="departmentDAO"
+		class="by.bsuir.kovalchuk.requestservice.dao.impl.DepartmentDAO"
+		parent="baseDAO" />
+
+	<bean id="imageService" class="by.bsuir.kovalchuk.requestservice.util.ImageService">
+		<property name="folder" value="D:\images\" />
+	</bean>
+</beans>

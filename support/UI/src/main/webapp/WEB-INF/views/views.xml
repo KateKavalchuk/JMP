@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE tiles-definitions PUBLIC
+  "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+  "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="base.definition" template="/WEB-INF/jsp/layout.jsp">
+		<put-attribute name="header" value="Support Center" />
+		<put-attribute name="header" value="/WEB-INF/jsp/header.jsp" />
+		<put-attribute name="menu" value="/WEB-INF/jsp/menu.jsp" />
+		<put-attribute name="content" value="" />
+	</definition>
+
+	<definition name="main" extends="base.definition">
+		<put-attribute name="content" value="/WEB-INF/jsp/main.jsp" />
+	</definition>
+
+	<definition name="createRequest" extends="base.definition">
+		<put-attribute name="content" value="/WEB-INF/jsp/create_request.jsp" />
+	</definition>
+
+	<definition name="showRequest" extends="base.definition">
+		<put-attribute name="content" value="/WEB-INF/jsp/show_request.jsp" />
+	</definition>
+	<definition name="departmentRequests" extends="base.definition">
+		<put-attribute name="content" value="/WEB-INF/jsp/department_requests.jsp" />
+	</definition>
+	
+</tiles-definitions>  

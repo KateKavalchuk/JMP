@@ -1,0 +1,33 @@
+@CHARSET "ISO-8859-1";
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+.header {
+	height: 15%;
+	width: 100%;
+	background-image: url("../images/header.jpg");
+	display: block;
+	margin: 0;
+	padding: 0;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.menu {
+	float: left;
+	width: 25%;
+	background-color: #2ECCFA;
+	height: 85%;
+	border: none;
+}
+
+.content {
+	float: left;
+	width: 75%;
+	border-left: 1px solid pink;
+	height: 85%;
+	border: none;
+}
