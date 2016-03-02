@@ -4,14 +4,13 @@
 	<groupId>by.bsuir.kovalchuk.requestservice</groupId>
 	<artifactId>support</artifactId>
 	<packaging>pom</packaging>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.0</version>
 	<name>support</name>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<spring.version>4.2.2.RELEASE</spring.version>
 		<jstl.version>1.2</jstl.version>
 		<hibernate.version>4.3.11.Final</hibernate.version>
-		<endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
 	</properties>
 	<build>
 		<finalName>support</finalName>
@@ -21,8 +20,8 @@
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
 					<configuration>
-						<source>1.5</source>
-						<target>1.5</target>
+						<source>1.7</source>
+						<target>1.7</target>
 					</configuration>
 				</plugin>
 			</plugins>
@@ -30,8 +29,8 @@
 	</build>
 	<modules>
 		<module>DAO</module>
-		<module>UI</module>
 		<module>BusinessLogic</module>
+		<module>UI</module>
 	</modules>
 	<dependencies>
 		<!-- JAVAX -->
