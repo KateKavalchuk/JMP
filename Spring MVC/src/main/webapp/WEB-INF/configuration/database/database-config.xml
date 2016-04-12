@@ -1,0 +1,44 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-4.2.xsd">
+
+	<bean
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="location" value="database.properties" />
+	</bean>
+
+	<bean id="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="${jdbc.driverClassName}" />
+		<property name="url" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+	</bean>
+
+	<!-- Hibernate session factory -->
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+
+		<property name="dataSource" ref="dataSource" />
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+				<prop key="hibernate.show_sql">true</prop>
+			</props>
+		</property>
+
+		<property name="annotatedClasses">
+			<list>
+				<value>by.bsuir.kovalchuk.requestservice.model.AttachedFile</value>
+				<value>by.bsuir.kovalchuk.requestservice.model.Comment</value>
+				<value>by.bsuir.kovalchuk.requestservice.model.Department</value>
+				<value>by.bsuir.kovalchuk.requestservice.model.Employee</value>
+				<value>by.bsuir.kovalchuk.requestservice.model.Priority</value>
+				<value>by.bsuir.kovalchuk.requestservice.model.Request</value>
+				<value>by.bsuir.kovalchuk.requestservice.model.Status</value>
+				<value>by.bsuir.kovalchuk.requestservice.model.Topic</value>
+			</list>
+		</property>
+	</bean>
+</beans>

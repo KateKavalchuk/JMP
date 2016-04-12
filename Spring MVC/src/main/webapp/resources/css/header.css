@@ -1,0 +1,27 @@
+@CHARSET "ISO-8859-1";
+
+body, html {
+	height: 100%;
+	width: 100%;
+	color: #FFF;
+}
+
+#languages {
+	float: right;
+	margin-right: 2%;
+	margin-top: 1%;
+}
+
+#logout {
+	float: right;
+	margin-right: -6%;
+	margin-top: 3%;
+	color: #FFF;
+}
+
+a {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.42857;
+	color: #FFF;
+}
